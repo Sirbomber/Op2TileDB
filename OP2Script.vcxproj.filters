@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tile Database">
+      <UniqueIdentifier>{29b19439-8a89-4faa-a03a-19ec0288448d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tile Database\Headers">
+      <UniqueIdentifier>{c7d20f68-59fc-4147-9874-f95a4fafb4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tile Database\Sources">
+      <UniqueIdentifier>{0e73c400-cfe1-49f5-bbe0-e6c6183f179c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Generator">
+      <UniqueIdentifier>{75f80ce6-2da7-42e5-9b4d-b8c56ed15d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Generator\Headers">
+      <UniqueIdentifier>{784418db-bd9e-4180-a9f4-8ff3fbc594e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Generator\Sources">
+      <UniqueIdentifier>{ee2cf013-3942-49a4-aedf-92df7d6ab081}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TileDatabase\include\TileDatabase.h">
+      <Filter>Tile Database\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDatabase\include\TileDb_Types.h">
+      <Filter>Tile Database\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDatabase\include\TileInfo.h">
+      <Filter>Tile Database\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDatabase\include\NeighborList.h">
+      <Filter>Tile Database\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator\include\MapGenerator.h">
+      <Filter>Map Generator\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator\include\MapFeatures.h">
+      <Filter>Map Generator\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TileDatabase\sources\TileDatabase.cpp">
+      <Filter>Tile Database\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDatabase\sources\TileInfo.cpp">
+      <Filter>Tile Database\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGen_Main.cpp" />
+    <ClCompile Include="TileDatabase\sources\NeighborList.cpp">
+      <Filter>Tile Database\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator\sources\MapFeatures.cpp">
+      <Filter>Map Generator\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator\sources\MapGenerator.cpp">
+      <Filter>Map Generator\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
